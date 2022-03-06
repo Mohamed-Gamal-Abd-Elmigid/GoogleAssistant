@@ -3,6 +3,7 @@ package com.example.googleassistant
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceFragmentCompat
+import com.etisalat.googleassis.R
 
 class SettingsActivity : AppCompatActivity() {
 
@@ -11,9 +12,9 @@ class SettingsActivity : AppCompatActivity() {
         setContentView(R.layout.settings_activity)
         if (savedInstanceState == null) {
             supportFragmentManager
-                .beginTransaction()
-                .replace(R.id.settings, SettingsFragment())
-                .commit()
+                    .beginTransaction()
+                    .replace(R.id.settings, SettingsFragment())
+                    .commit()
         }
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }

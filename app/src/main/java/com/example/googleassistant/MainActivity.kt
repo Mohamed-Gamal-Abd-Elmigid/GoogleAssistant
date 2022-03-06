@@ -1,9 +1,12 @@
-package com.example.googleassistant
+package com.etisalat.itworx.activity
 
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.etisalat.googleassis.R
+import com.example.googleassistant.ProfileActivity
+import com.example.googleassistant.SettingsActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,11 +36,11 @@ class MainActivity : AppCompatActivity() {
         when(featureType)
         {
             "profile" -> {
-                val profileIntent = Intent(this,ProfileActivity::class.java)
+                val profileIntent = Intent(this, ProfileActivity::class.java)
                 startActivity(profileIntent)
             }
             "settings" -> {
-                val settingsIntent = Intent(this,SettingsActivity::class.java)
+                val settingsIntent = Intent(this, SettingsActivity::class.java)
                 startActivity(settingsIntent)
             }
         }
