@@ -4,9 +4,9 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.etisalat.googleassis.R
-import com.example.googleassistant.ProfileActivity
-import com.example.googleassistant.SettingsActivity
+import com.etisalat.itworx.activity.R
+import com.etisalat.itworx.activity.ProfileActivity
+import com.etisalat.itworx.activity.SettingsActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,6 +48,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun gotoDefaultView() {
-        TODO("Not yet implemented")
+//        TODO("Not yet implemented")
     }
 }

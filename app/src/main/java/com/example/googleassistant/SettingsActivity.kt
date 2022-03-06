@@ -1,9 +1,9 @@
-package com.example.googleassistant
+package com.etisalat.itworx.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceFragmentCompat
-import com.etisalat.googleassis.R
+import com.etisalat.itworx.activity.R
 
 class SettingsActivity : AppCompatActivity() {
 
