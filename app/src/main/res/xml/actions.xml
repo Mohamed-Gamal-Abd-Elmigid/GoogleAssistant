@@ -11,11 +11,15 @@
             </parameter>
         </action>
     <entity-set entitySetId="FeaturesEntitySet">
+        <entity name="Home"
+            identifier="home"/>
         <entity name="Profile"
             identifier="profile"/>
         <entity name="Settings"
             identifier="settings"/>
         <entity name="Records"
             identifier="records"/>
+        <entity name="History"
+            identifier="history"/>
     </entity-set>
 </actions>
